@@ -214,6 +214,7 @@ Note:
 For the "comments" field:
 
 - Add comments for the code that does not follow the best practices
+- If a new line contains multiple issues, add a comment for each issue
 - ONLY add comments for actual issues that need to be addressed
 - DO NOT add comments for:
   * Compliments or positive feedback
