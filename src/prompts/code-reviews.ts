@@ -14,6 +14,10 @@ The following components are required to be used: container.liquid, image.liquid
 
 The following best practices are required to be followed:
 
+General:
+  - no hardcoded strings
+  - missing closing tags, quotes, etc.
+
 For liquid code:
   - if the theme and block settings are not empty before using it
   - if the content is being captured before being wrapped in containers so it can be checked for empty states
@@ -54,10 +58,8 @@ For the "summary" field, use Markdown formatting and follow these guidelines:
   - Approve: Changes look good and are safe to merge
   - Comment: Changes need discussion or minor adjustments
   - Request Changes: ONLY for serious issues such as:
-    * Security vulnerabilities
     * Critical performance issues
     * Broken core functionality
-    * Data integrity risks
     * Production stability threats
 
   Normal code improvements, refactoring suggestions, or breaking changes 
